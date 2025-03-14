@@ -11,10 +11,10 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Frederick Tran
 ORG:Ligne Chic
-TITLE:Architecte d'intérieur designer - Co-gérant associé
+TITLE:Architecte d'intérieur designer
 TEL;TYPE=CELL:0681847346
-EMAIL:frederick.tran@lignechic.com
-ADR;TYPE=WORK:;;6 rue d'armaillé;Paris;;75017;France
+EMAIL:frederick@ligne-chic.com
+ADR;TYPE=WORK:;;6 rue d'Armaillé;Paris;;75017;France
 NOTE:L'élégance intemporelle
 END:VCARD
     `.trim();
@@ -57,13 +57,13 @@ END:VCARD
         <div className="p-8">
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-yellow-500">Frederick Tran</h2>
-            <p className="text-stone-400">Architecte d&apos;intérieur designer - Co-gérant associé</p>
+            <p className="text-stone-400">Architecte d&apos;intérieur designer</p>
           </div>
 
           <div className="space-y-4">
             <div>
               <p className="text-sm text-stone-400">Adresse</p>
-              <p className="text-stone-300">6 rue d&apos;armaillé 75017 Paris</p>
+              <p className="text-stone-300">6 rue d&apos;Armaillé 75017 Paris</p>
             </div>
 
             {/* Phone Number with Click-to-Call */}
@@ -84,7 +84,7 @@ END:VCARD
                 href="mailto:frederick.tran@lignechic.com"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                frederick.tran@lignechic.com
+                frederick@ligne-chic.com
               </a>
             </div>
           </div>
