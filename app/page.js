@@ -1,6 +1,38 @@
+"use client"
+
 import Image from "next/image";
 
 export default function Home() {
+  // Function to generate and trigger the .vcf file download
+  const handleAddContact = () => {
+    // vCard content
+    const vCardData = `
+BEGIN:VCARD
+VERSION:3.0
+FN:Frederick Tran
+ORG:Ligne Chic
+TITLE:Architecte d'intérieur designer - Co-gérant associé
+TEL;TYPE=CELL:0681847346
+EMAIL:frederick.tran@lignechic.com
+ADR;TYPE=WORK:;;6 rue d'armaillé;Paris;;75017;France
+NOTE:L'élégance intemporelle
+END:VCARD
+    `.trim();
+
+    // Create a Blob with the vCard data
+    const blob = new Blob([vCardData], { type: "text/vcard" });
+    const url = URL.createObjectURL(blob);
+
+    // Create a temporary anchor element to trigger the download
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "frederick_tran.vcf"; // Name of the file
+    document.body.appendChild(link);
+    link.click(); // Trigger the download
+    document.body.removeChild(link); // Clean up
+    URL.revokeObjectURL(url); // Release the object URL
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-stone-950 p-6">
       {/* Glassmorphism Card */}
@@ -25,13 +57,13 @@ export default function Home() {
         <div className="p-8">
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-yellow-500">Frederick Tran</h2>
-            <p className="text-stone-400">Architecte d&apos;intérieur designer</p>
+            <p className="text-stone-400">Architecte d&apos;intérieur designer - Co-gérant associé</p>
           </div>
 
           <div className="space-y-4">
             <div>
               <p className="text-sm text-stone-400">Adresse</p>
-              <p className="text-stone-300">6 rue d&apos;Armaillé 75017 Paris</p>
+              <p className="text-stone-300">6 rue d&apos;armaillé 75017 Paris</p>
             </div>
 
             {/* Phone Number with Click-to-Call */}
@@ -49,13 +81,21 @@ export default function Home() {
             <div>
               <p className="text-sm text-stone-400">Email</p>
               <a
-                href="mailto:frederick@lignechic.com"
+                href="mailto:frederick.tran@lignechic.com"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                frederick@lignechic.com
+                frederick.tran@lignechic.com
               </a>
             </div>
           </div>
+
+          {/* Add Contact Button */}
+          <button
+            onClick={handleAddContact}
+            className="w-full mt-8 bg-yellow-500/10 text-yellow-500 py-3 px-6 rounded-lg hover:bg-yellow-500/20 transition-colors duration-200 border border-yellow-500/20"
+          >
+            Ajouter aux contacts
+          </button>
         </div>
 
         {/* Footer Section */}
