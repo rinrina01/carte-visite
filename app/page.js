@@ -25,7 +25,7 @@ export default function Home() {
         <div className="p-8">
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-yellow-500">Frederick Tran</h2>
-            <p className="text-stone-400">Architecte d&apos;intérieur designer - Co-gérant associé</p>
+            <p className="text-stone-400">Architecte d&apos;intérieur designer</p>
           </div>
 
           <div className="space-y-4">
