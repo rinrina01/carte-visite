@@ -18,20 +18,20 @@ export default function Home() {
             />
           </div>
           <h1 className="text-3xl font-bold uppercase text-stone-100">Ligne Chic</h1>
-          <p className="text-sm text-stone-400 mt-2">L'élégance intemporelle</p>
+          <p className="text-sm text-stone-400 mt-2">L&apos;élégance intemporelle</p>
         </div>
 
         {/* Contact Information Section */}
         <div className="p-8">
           <div className="mb-6">
             <h2 className="text-2xl font-bold text-yellow-500">Frederick Tran</h2>
-            <p className="text-stone-400">Architecte d'intérieur designer - Co-gérant associé</p>
+            <p className="text-stone-400">Architecte d&apos;intérieur designer - Co-gérant associé</p>
           </div>
 
           <div className="space-y-4">
             <div>
               <p className="text-sm text-stone-400">Adresse</p>
-              <p className="text-stone-300">6 rue d'armaillé 75017 Paris</p>
+              <p className="text-stone-300">6 rue d&apos;Armaillé 75017 Paris</p>
             </div>
 
             {/* Phone Number with Click-to-Call */}
@@ -49,10 +49,10 @@ export default function Home() {
             <div>
               <p className="text-sm text-stone-400">Email</p>
               <a
-                href="mailto:frederick.tran@lignechic.com"
+                href="mailto:frederick@lignechic.com"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                frederick.tran@lignechic.com
+                frederick@lignechic.com
               </a>
             </div>
           </div>
