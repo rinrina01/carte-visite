@@ -7,17 +7,16 @@ export default function Home() {
   const handleAddContact = () => {
     // vCard content
     const vCardData = `
-    BEGIN:VCARD
-    VERSION:3.0
-    N:TRAN;Frederick;;;
-    FN:Frederick Tran
-    ORG:Frederick Tran - Ligne Chic
-    TITLE:Architecte d'intérieur designer
-    TEL;TYPE=CELL:0681847346
-    EMAIL:frederick@ligne-chic.com
-    ADR;TYPE=WORK:;;6 rue d'Armaillé;Paris;;75017;France
-    NOTE:L'élégance intemporelle
-    END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Frederick Tran
+ORG:Frederick Tran - Ligne Chic
+TITLE:Architecte d'intérieur designer
+TEL;TYPE=CELL:0681847346
+EMAIL:frederick@ligne-chic.com
+ADR;TYPE=WORK:;;6 rue d'Armaillé;Paris;;75017;France
+NOTE:L'élégance intemporelle
+END:VCARD
     `.trim();
 
     // Create a Blob with the vCard data
