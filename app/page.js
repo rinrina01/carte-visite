@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import Image from "next/image";
 
@@ -38,27 +38,16 @@ export default function Home() {
     <div className="min-h-screen flex items-center justify-center bg-stone-950 p-6">
       {/* Glassmorphism Card */}
       <div className="max-w-md w-full bg-stone-900/30 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-stone-700/30 hover:border-stone-600/50 transition-all duration-300">
-        {/* Add Contact Button - Now at the top */}
-        <button
-          onClick={handleAddContact}
-          className="w-full bg-gradient-to-r from-yellow-500/90 to-yellow-600 text-stone-900 py-4 px-6 font-bold text-lg tracking-wide hover:from-yellow-500 hover:to-yellow-500 transition-all duration-300 shadow-lg shadow-yellow-500/20 hover:shadow-yellow-500/30 flex items-center justify-center gap-2"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
-          </svg>
-          AJOUTER AUX CONTACTS
-        </button>
-
         {/* Logo & Slogan Section */}
-        <div className="p-8 bg-stone-800/20 text-center border-b border-stone-700/30">
+        <div className="p-8 bg-stone-800/20 rounded-t-3xl text-center border-b border-stone-700/30">
           <div className="w-24 h-24 mx-auto rounded-full bg-stone-700/20 flex items-center justify-center mb-4 overflow-hidden backdrop-blur-sm">
             {/* Logo Image */}
             <Image
               src="/logo.png" // Path to the logo in the public folder
               alt="Ligne Chic Logo"
-              width={96}
+              width={96} // Adjust based on your logo's aspect ratio
               height={96}
-              className="object-cover rounded-full"
+              className="object-cover rounded-full" // Ensures the image fits well
             />
           </div>
           <h1 className="text-3xl font-bold uppercase text-stone-100">Frédéric Tran</h1>
@@ -100,6 +89,14 @@ export default function Home() {
               </a>
             </div>
           </div>
+
+          {/* Add Contact Button */}
+          <button
+            onClick={handleAddContact}
+            className="w-full mt-8 bg-yellow-500/10 text-yellow-500 py-3 px-6 rounded-lg hover:bg-yellow-500/20 transition-colors duration-200 border border-yellow-500/20"
+          >
+            Ajouter aux contacts
+          </button>
         </div>
 
         {/* Footer Section */}
