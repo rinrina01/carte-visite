@@ -27,7 +27,7 @@ END:VCARD
     // Create a temporary anchor element to trigger the download
     const link = document.createElement("a");
     link.href = url;
-    link.download = "frederick_tran.vcf"; // Name of the file
+    link.download = "an_tran.vcf"; // Name of the file
     document.body.appendChild(link);
     link.click(); // Trigger the download
     document.body.removeChild(link); // Clean up
@@ -50,14 +50,14 @@ END:VCARD
               className="object-cover rounded-full" // Ensures the image fits well
             />
           </div>
-          <h1 className="text-3xl font-bold uppercase text-stone-100">Frédéric Tran</h1>
+          <h1 className="text-3xl font-bold uppercase text-stone-100">An Tran</h1>
           <p className="text-sm text-stone-400 mt-2">Ligne Chic - L&apos;élégance intemporelle</p>
         </div>
 
         {/* Contact Information Section */}
         <div className="p-8">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-yellow-500">Frédéric Tran</h2>
+            <h2 className="text-2xl font-bold text-yellow-500">An Tran</h2>
             <p className="text-stone-400">Architecte d&apos;intérieur designer</p>
           </div>
 
