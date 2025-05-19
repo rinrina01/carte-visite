@@ -13,7 +13,7 @@ N:TRAN;An;;;
 FN:Frederick An
 ORG:An Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
-TEL;TYPE=CELL:0681847346
+TEL;TYPE=CELL:0670286463
 EMAIL:frederick@ligne-chic.com
 ADR;TYPE=WORK:;;6 rue d'Armaillé;Paris;;75017;France
 NOTE:L'élégance intemporelle
@@ -71,10 +71,10 @@ END:VCARD
             <div>
               <p className="text-sm text-stone-400">Téléphone</p>
               <a
-                href="tel:+33681847346"
+                href="tel:+33670286463"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                06 81 84 73 46
+                06 70 28 64 63
               </a>
             </div>
 
