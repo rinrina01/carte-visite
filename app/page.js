@@ -9,9 +9,9 @@ export default function Home() {
     const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-N:TRAN;Frederick;;;
-FN:Frederick Tran
-ORG:Frederick Tran - Ligne Chic
+N:TRAN;An;;;
+FN:Frederick An
+ORG:An Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
 TEL;TYPE=CELL:0681847346
 EMAIL:frederick@ligne-chic.com
