@@ -13,7 +13,7 @@ N:TRAN;An;;;
 FN:An Tran
 ORG:An Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
-TEL;TYPE=CELL:0681847346
+TEL;TYPE=CELL:0670286463
 EMAIL:frederick@ligne-chic.com
 ADR;TYPE=WORK:;;6 rue d'Armaillé;Paris;;75017;France
 NOTE:L'élégance intemporelle
