@@ -74,7 +74,7 @@ END:VCARD
                 href="tel:+33681847346"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                06 81 84 73 46
+                06 70 28 64 63
               </a>
             </div>
 
