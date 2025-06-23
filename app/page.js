@@ -85,6 +85,7 @@ END:VCARD
               >
                 Bureau - 01 89 70 50 73
               </a>
+              </p>
             </div>
 
             {/* Email with Click-to-Email */}
