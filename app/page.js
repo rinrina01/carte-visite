@@ -50,7 +50,7 @@ END:VCARD
               className="object-cover rounded-full" // Ensures the image fits well
             />
           </div>
-          <h1 className="text-3xl font-bold uppercase text-stone-100">Frederick Tran</h1>
+          <h1 className="text-3xl font-bold uppercase text-stone-100">Ligne Chic</h1>
           <p className="text-sm text-stone-400 mt-2">Ligne Chic - L&apos;élégance intemporelle</p>
         </div>
 
@@ -86,6 +86,15 @@ END:VCARD
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
                 frederick@ligne-chic.com
+              </a>
+            </div>
+                  <div>
+              <p className="text-sm text-stone-400">Site</p>
+              <a
+                href="https://www.ligne-chic.com"
+                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+              >
+                https://www.ligne-chic.com
               </a>
             </div>
           </div>
