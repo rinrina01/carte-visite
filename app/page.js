@@ -69,7 +69,7 @@ END:VCARD
 
             {/* Phone Number with Click-to-Call */}
             <div>
-              <p className="text-sm text-stone-400">Téléphone</p>
+              <p className="text-sm text-stone-400">Téléphone (Port)</p>
               <a
                 href="tel:+33681847346"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
