@@ -13,7 +13,7 @@ N:TRAN;Frederick;;;
 FN:Frederick Tran
 ORG:Frederick Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
-TEL;TYPE=CELL:0670286463
+TEL;TYPE=CELL:+33670286463
 TEL;TYPE=WORK:+33189705073
 EMAIL:frederick@ligne-chic.com
 URL:https://ligne-chic.com
