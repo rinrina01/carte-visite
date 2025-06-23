@@ -74,7 +74,13 @@ END:VCARD
                 href="tel:+33681847346"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                06 70 28 64 63
+                Port - 06 70 28 64 63
+              </a>
+              <a
+                href="tel:+0189705073"
+                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+              >
+                Bureau - 01 89 70 50 73
               </a>
             </div>
 
