@@ -10,8 +10,8 @@ export default function Home() {
 BEGIN:VCARD
 VERSION:3.0
 N:TRAN;An;;;
-FN:An Tran
-ORG:An Tran - Ligne Chic
+FN:Frederick Tran
+ORG:Frederick Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
 TEL;TYPE=CELL:0670286463
 EMAIL:frederick@ligne-chic.com
@@ -27,7 +27,7 @@ END:VCARD
     // Create a temporary anchor element to trigger the download
     const link = document.createElement("a");
     link.href = url;
-    link.download = "an_tran.vcf"; // Name of the file
+    link.download = "Frederick_tran.vcf"; // Name of the file
     document.body.appendChild(link);
     link.click(); // Trigger the download
     document.body.removeChild(link); // Clean up
