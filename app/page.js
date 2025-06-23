@@ -92,7 +92,7 @@ END:VCARD
               <p className="text-sm text-stone-400">Site</p>
               <a
                 href="https://www.ligne-chic.com"
-                className="text-stone-300 text-yellow-500 transition-colors duration-200"
+                className="text-blue-500 underline underline-offset-2 hover:text-blue-600 transition-colors duration-200"
               >
                 https://www.ligne-chic.com
               </a>
