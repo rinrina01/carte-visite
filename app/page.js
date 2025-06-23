@@ -51,7 +51,7 @@ END:VCARD
             />
           </div>
           <h1 className="text-3xl font-bold uppercase text-stone-100">Ligne Chic</h1>
-          <p className="text-sm text-stone-400 mt-2">Ligne Chic - L&apos;élégance intemporelle</p>
+          <p className="text-sm text-stone-400 mt-2">L&apos;élégance intemporelle</p>
         </div>
 
         {/* Contact Information Section */}
@@ -89,7 +89,7 @@ END:VCARD
               </a>
             </div>
                   <div>
-              <p className="text-sm text-stone-400">Site</p>
+              <p className="text-sm text-stone-400 text-blue-500">Site</p>
               <a
                 href="https://www.ligne-chic.com"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
