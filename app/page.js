@@ -9,7 +9,7 @@ export default function Home() {
     const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-N:TRAN;An;;;
+N:TRAN;Frederick;;;
 FN:Frederick Tran
 ORG:Frederick Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
