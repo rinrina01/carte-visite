@@ -70,17 +70,20 @@ END:VCARD
             {/* Phone Number with Click-to-Call */}
             <div>
               <p className="text-sm text-stone-400">Téléphone</p>
+              <p>
               <a
                 href="tel:+33681847346"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
                 Port - 06 70 28 64 63
               </a>
+              </p>
+              <p>
               <a
                 href="tel:0189705073"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                \nBureau - 01 89 70 50 73
+                Bureau - 01 89 70 50 73
               </a>
             </div>
 
