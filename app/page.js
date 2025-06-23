@@ -89,10 +89,10 @@ END:VCARD
               </a>
             </div>
                   <div>
-              <p className="text-sm text-stone-400 text-blue-500">Site</p>
+              <p className="text-sm text-stone-400">Site</p>
               <a
                 href="https://www.ligne-chic.com"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+                className="text-stone-300 text-yellow-500 transition-colors duration-200"
               >
                 https://www.ligne-chic.com
               </a>
