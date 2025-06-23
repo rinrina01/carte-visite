@@ -83,7 +83,7 @@ END:VCARD
               <p className="text-sm text-stone-400">Email</p>
               <a
                 href="mailto:frederick.tran@lignechic.com"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+                className="text-blue-500 underline underline-offset-2 hover:text-blue-600 transition-colors duration-200"
               >
                 frederick@ligne-chic.com
               </a>
