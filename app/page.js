@@ -74,7 +74,7 @@ END:VCARD
               <p className="text-sm text-stone-400">Téléphone</p>
               <a
                 href="tel:+33681847346"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+                className="mb-3 text-blue-500 underline underline-offset-2 hover:text-blue-600 transition-colors duration-200"
               >
                 06 70 28 64 63
               </a>
@@ -82,7 +82,7 @@ END:VCARD
               <p className="text-sm text-stone-400">Bureau Paris</p>
               <a
                 href="tel:+33189705073"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+                className="text-blue-500 underline underline-offset-2 hover:text-blue-600 transition-colors duration-200"
               >
                 01 89 70 50 73
               </a>
@@ -90,7 +90,7 @@ END:VCARD
               <p className="text-sm text-stone-400">Bureau Normandie</p>
               <a
                 href="tel:+33255994639"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+                className="text-blue-500 underline underline-offset-2 hover:text-blue-600 transition-colors duration-200"
               >
                 02 55 99 46 39
               </a>
@@ -106,16 +106,8 @@ END:VCARD
                 contact@ligne-chic.com
               </a>
             </div>
-
+            
             <div>
-              <a
-                href="https://www.ligne-chic.com"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
-              >
-                Site Web
-              </a>
-            </div>
-                  <div>
               <p className="text-sm text-stone-400">Site</p>
               <a
                 href="https://www.ligne-chic.com"
