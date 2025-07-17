@@ -14,9 +14,7 @@ FN:An Tran
 ORG:An Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
 TEL;TYPE=CELL:0670286463
-TEL;TYPE=WORK:0189705073
-TEL;TYPE=WORK:0255994639
-EMAIL:contact@ligne-chic.com
+EMAIL:frederick@ligne-chic.com
 ADR;TYPE=WORK:;;6 rue d'Armaillé;Paris;;75017;France
 NOTE:L'élégance intemporelle
 END:VCARD
@@ -78,22 +76,6 @@ END:VCARD
               >
                 06 70 28 64 63
               </a>
-
-              <p className="text-sm text-stone-400">Bureau Paris</p>
-              <a
-                href="tel:+33189705073"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
-              >
-                01 89 70 50 73
-              </a>
-
-              <p className="text-sm text-stone-400">Bureau Normandie</p>
-              <a
-                href="tel:+33255994639"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
-              >
-                02 55 99 46 39
-              </a>
             </div>
 
             {/* Email with Click-to-Email */}
@@ -103,16 +85,7 @@ END:VCARD
                 href="mailto:frederick.tran@lignechic.com"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                contact@ligne-chic.com
-              </a>
-            </div>
-
-            <div>
-              <a
-                href="https://www.ligne-chic.com"
-                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
-              >
-                Site Web
+                frederick@ligne-chic.com
               </a>
             </div>
           </div>
