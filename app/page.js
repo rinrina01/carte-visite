@@ -9,14 +9,16 @@ export default function Home() {
     const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-N:TRAN;An;;;
-FN:An Tran
-ORG:An Tran - Ligne Chic
+N:TRAN;Frederick;;;
+FN:Frederick Tran
+ORG:Frederick Tran - Ligne Chic
 TITLE:Architecte d'intérieur designer
 TEL;TYPE=CELL:0670286463
-EMAIL:frederick@ligne-chic.com
+TEL;TYPE=WORK:0189705073
+TEL;TYPE=WORK:0255994639
+EMAIL:contact@ligne-chic.com
 ADR;TYPE=WORK:;;6 rue d'Armaillé;Paris;;75017;France
-NOTE:L'élégance intemporelle
+NOTE:L'élégance intemporelle.
 END:VCARD
     `.trim();
 
@@ -27,7 +29,7 @@ END:VCARD
     // Create a temporary anchor element to trigger the download
     const link = document.createElement("a");
     link.href = url;
-    link.download = "an_tran.vcf"; // Name of the file
+    link.download = "Frederick_tran.vcf"; // Name of the file
     document.body.appendChild(link);
     link.click(); // Trigger the download
     document.body.removeChild(link); // Clean up
@@ -50,14 +52,14 @@ END:VCARD
               className="object-cover rounded-full" // Ensures the image fits well
             />
           </div>
-          <h1 className="text-3xl font-bold uppercase text-stone-100">An Tran</h1>
-          <p className="text-sm text-stone-400 mt-2">Ligne Chic - L&apos;élégance intemporelle</p>
+          <h1 className="text-3xl font-bold uppercase text-stone-100">Ligne Chic</h1>
+          <p className="text-sm text-stone-400 mt-2">L&apos;élégance intemporelle</p>
         </div>
 
         {/* Contact Information Section */}
         <div className="p-8">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-yellow-500">An Tran</h2>
+            <h2 className="text-2xl font-bold text-yellow-500">Frederick Tran</h2>
             <p className="text-stone-400">Architecte d&apos;intérieur designer</p>
           </div>
 
@@ -76,6 +78,22 @@ END:VCARD
               >
                 06 70 28 64 63
               </a>
+
+              <p className="text-sm text-stone-400">Bureau Paris</p>
+              <a
+                href="tel:+33189705073"
+                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+              >
+                01 89 70 50 73
+              </a>
+
+              <p className="text-sm text-stone-400">Bureau Normandie</p>
+              <a
+                href="tel:+33255994639"
+                className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
+              >
+                02 55 99 46 39
+              </a>
             </div>
 
             {/* Email with Click-to-Email */}
@@ -83,9 +101,27 @@ END:VCARD
               <p className="text-sm text-stone-400">Email</p>
               <a
                 href="mailto:frederick.tran@lignechic.com"
+                className="text-blue-500 underline underline-offset-2 hover:text-blue-600 transition-colors duration-200"
+              >
+                contact@ligne-chic.com
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.ligne-chic.com"
                 className="text-stone-300 hover:text-yellow-500 transition-colors duration-200"
               >
-                frederick@ligne-chic.com
+                Site Web
+              </a>
+            </div>
+                  <div>
+              <p className="text-sm text-stone-400">Site</p>
+              <a
+                href="https://www.ligne-chic.com"
+                className="text-blue-500 underline underline-offset-2 hover:text-blue-600 transition-colors duration-200"
+              >
+                https://www.ligne-chic.com
               </a>
             </div>
           </div>
